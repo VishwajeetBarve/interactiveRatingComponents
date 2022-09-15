@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    
+  
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #1e0f24;
+    width: 300px;
+    height: fit-content;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: left;
+    
+    
+}
+
+.star-div{
+    border-radius: 50%;
+    background-color:  hsla(213, 5%, 33%, 0.801);
+    text-align: center;
+    width: fit-content;
+    margin: 20px ;
+
+}
+.star{
+    color: yellow;
+    font-size: 10px;
+    padding: 7px;
+    
+}
+.details{
+    margin: 10px 20px 20px 20px;
+}
+
+.question{
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 700;
+    
+
+}
+.info{
+    
+    font-size: 12px;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    padding: 10px 0 0 0 ;
+}
+
+
+.rating-options{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 10px;
+}
+.ratings{
+    border-radius: 50%;
+    background-color: darkslategray;
+    padding: 10px 15px;
+    color: white;
+    margin-right: 2px;    
+    font-family: 'Overpass', sans-serif;
+    font-size: small;
+    transition: background-color 0.5s;
+}
+.ratings:hover{
+    background-color: grey;
+    color: darkslategrey;
+}
+
+ .orange{
+    background-color: orange;
+ }
+
+.submit{
+    width: 90%;
+    border-radius: 15px;
+    margin: 15px auto 20px auto;
+    background-color: hsl(25, 97%, 53%);
+    border: 0px;
+    padding: 10px 0;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+.submit:hover{
+    background-color: beige;
+    color: black;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.thankyou-image{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin: 20px;
+}
+
+.user-info{
+    background-color:  #555555;
+    border-radius: 12px;
+    align-self: center;
+    margin: 0 0 10px 0;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: hsl(25, 97%, 53%);
+
+}
